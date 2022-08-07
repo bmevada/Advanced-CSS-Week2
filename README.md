@@ -27,6 +27,7 @@ WHEN the link to "About Me" is clicked on
 THEN the UI scrolls to the description of about me and the project
 WHEN the link to "My Work" is clicked on 
 THEN the UI scrolls to the to a section of tiled images of my projects
+GIVEN this will be viewed using flexbox and media queries to create a responsive grid layout
 WHEN the tile of any given project is hovered over, it will provide a brief to the project
 WHEN the image of project is clicked on
 THEN the employer will be directed to the deployed application
