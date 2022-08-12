@@ -38,7 +38,7 @@ footer {
   @media screen and (max-width: 768px) {
     header {
       flex-direction: column;
-      text text-align: left;
+      text-align: left;
       margin-top: 20px;
       color: blue;
     }
@@ -48,3 +48,115 @@ footer {
     }
   }
 
+  .link >li {
+    display: inline-block;
+    padding-left: 20px;
+  }
+
+  .left-border {
+    border-left: solid 10px; color: blue;
+
+  }
+
+  .banner {
+    width: 100%;
+    height: 140px;
+    opacity: 0.4;
+  }
+
+  .banner:hover {
+    opacity: 0.8;
+  }
+
+  .banner-text {
+    position: absolute;
+    top: 20px;
+    /* color: white; */
+    padding: 20px;
+    background-color: beige;
+  }
+
+  /* Set box position and style of container 1 */
+  .section {
+    /* position: relative;
+    top: 100px;
+    height: 100px; */
+    /* width: 100%; */
+    /* float: right; */
+    /* background-color: blanchedalmond; */
+    /* padding: 40px 30px; */
+    display: flex;
+    margin: 20px 0;
+    padding: 20px;
+  }
+
+  .section h2 {
+    margin-right: 40px;
+    padding: 20px;
+    border-right: 2px solid black;
+}
+ 
+
+  .container1_text {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  /* Add text to container 1 */
+  .container1_label {
+    width: 100px;
+    height: 50px;
+    padding: 40px 30px;
+
+  }
+
+    /* Set box position and style of container 2 */
+    .container2 {
+        position: relative;
+        top: 100px;
+        height: 100px;
+        width: 100%;
+        float: right;
+        background-color: blanchedalmond;
+        padding: 40px 30px;
+    
+      }
+    
+      .container2_text {
+        position: relative;
+        margin-left: 0px;
+        margin-top: 0px;
+      }
+    
+      /* Add text to container 2 */
+      .container2_label {
+        width: 100px;
+        height: 50px;
+        padding: 40px 30px;
+      }
+    
+   /* Set box position and style of container 3 */
+        .container3 {
+        position: relative;
+        top: 100px;
+        height: 100px;
+        width: 100%;
+        float: right;
+        background-color: blanchedalmond;
+        padding: 40px 30px;
+    
+      }
+    
+      .container3_text {
+        position: relative;
+        margin-left: 0px;
+        margin-top: 0px;
+      }
+    
+      /* Add text to container 3 */
+      .container3_label {
+        width: 100px;
+        height: 50px;
+        padding: 40px 30px;
+      }
