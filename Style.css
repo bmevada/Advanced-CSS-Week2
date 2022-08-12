@@ -38,6 +38,9 @@ footer {
   @media screen and (max-width: 768px) {
     header {
       flex-direction: column;
+      text text-align: left;
+      margin-top: 20px;
+      color: blue;
     }
   
     main {
