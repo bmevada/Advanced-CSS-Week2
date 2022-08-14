@@ -109,3 +109,22 @@ footer {
     background-color: var(#234b6f);
     color: var(#ffff);
   }
+  
+  .MERN {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .Node {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+  }
+  
+  .React {
+    width: 100%;
+    min-width: 400px;
+  }
