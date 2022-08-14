@@ -84,10 +84,10 @@ section {
   }
 
   .sidebar{
-    align-items: center;
-    border-right: 5px solid black;
+    align-items: right;
+
   }
-  .section {
+  .section1 {
     height: 100%;
     width: 90%;
     display: flex;
@@ -99,25 +99,44 @@ section {
     align-items: center; 
     height: 100%;  
     width:12%;
-    border-right: 5px solid black;
+    
 }
+
+.section2 {
+    height: 100%;
+    display: inline;
+    display: flex;
+    flex-wrap: column;
+ }
+
+ .PortfolioInfo {
+       padding: 10px; 
+       margin: 40px;
+       font-size: relative ;
+       display: flex;
+       flex-wrap: wrap;
+ }
+
 
 h2 {
     font-size: large;
     color: #234b6f;
     align-items: right;
+    border-right: 5px solid green;
+
 }
 
 p {
-    padding-left: 30px;
-    font-size: medium;
+    padding-left: 50px;
+    font-size: relative-size;
+    display: inline;
 }
 
 .images {
     display: flex;
     flex-direction:column;
     margin-left: 200px;
-    border: 10px solid black;
+    border: 10px solid navy;
     padding: 15px;
 }
 
@@ -129,8 +148,7 @@ p {
     
     padding: 10px;
     text-align: center;
-    border-style: solid;
-    border-width: 1px;
+    border: 5px solid navy
 }
 
 .two-images {
@@ -144,8 +162,8 @@ p {
   }
   
 .image1 img {
-    max-width: 80%;
-   max-height: 400px;
+    width: 600px;
+   height: 400px;
 }
 
 .image2 {
@@ -155,8 +173,8 @@ p {
   }
   
   .image2 img {
-    max-width: 100%;
-    max-height: 200px;
+    width: 300px;
+    height: 200px;
   }
 
   footer {
