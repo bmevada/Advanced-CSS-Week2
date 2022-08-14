@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 5;
+    padding: 5;
     box-sizing: border-box;
 }
 
@@ -11,6 +11,7 @@ height: 100%;
 body { 
     min-height: 100%;
     line-height: 1;
+    margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -19,8 +20,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 2%;
-    background-color: var(#234b6f);
-    color: var(#ffff);
+    background-color: #234b6f;
+    color: #ffff;
 }
 
 h1 {
@@ -29,28 +30,33 @@ h1 {
 
 main {
     display: flex;
+ /* Forces elements to the next line if they don't fit */
+  flex-wrap: wrap;
+  margin-top: 2%;
     flex-direction: column;
     
 }
 section {
     display: flex;
+   /* Forces elements to the next line if they don't fit */
+   flex-wrap: wrap;   
     flex-direction: row;
     padding: 20px ;
 
 }
-  
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     header {
       flex-direction: column;
       text-align: left;
       margin-top: 20px;
-      color: blue;
+      color: rgb(233, 233, 244);
     }
+}
   
     main {
       max-width: 1200px;
     }
-  }
+  
 
   .link >li {
     display: inline-block;
@@ -58,7 +64,7 @@ section {
   }
 
   .left-border {
-    border-left: solid 10px; color: blue;
+    border-left: solid 10px; color: rgb(213, 213, 225);
 
   }
 
@@ -102,48 +108,50 @@ p {
     padding-left: 30px;
     font-size: medium;
 }
-footer {
-    display: flex;
-    justify-content: center;
-    padding: 2%;
-    background-color: var(#234b6f);
-    color: var(#ffff);
-  }
-  
-  .image1 {
-    flex: 1 0 0;
-    padding: 10px;
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
-  }
-  
-  .image1 header {
-    padding: 20px;
-    background: #13293d;
-    color: #fff;
-  }
-  
-  .image1 img {
-    width: 100%;
-    min-width: 800px;
-  }
 
-  .image2 {
-    flex: 1 0 0;
+    .images {
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    border: 10px solid black;
+    padding: 15px;
+    }
+
+.image1 {
+    
     padding: 10px;
     text-align: center;
     border-style: solid;
     border-width: 1px;
-  }
+}
+
+.two-images {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
   
-  .image2 header {
-    padding: 20px;
-    background: #13293d;
-    color: #fff;
+.image1 img {
+    width: 80%;
+}
+
+.image2 {
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
   }
   
   .image2 img {
-    width: 100%;
-    min-width: 400px;
+    width: 50%;
+    min-width: 50px;
   }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color: #234b6f;
+    color: #ffff;
+}
