@@ -76,8 +76,9 @@ section {
   }
 
   .banner-text {
-    position: absolute;
-    top: 20px;
+    position: relative;
+    top: -100px;
+    bottom: 16px;
     color: white;
     padding: 20px;
     background-color: rgb(26, 51, 132);
@@ -93,6 +94,14 @@ section {
     display: flex;
     flex-direction: column;
    }
+
+.aboutme {
+    padding: 10px; 
+    margin: 40px;
+    font-size: relative ;
+    display: flex;
+    flex-wrap: wrap;   
+}
 
    .SectionHeader {
     display:flex;
@@ -123,6 +132,7 @@ h2 {
     color: #234b6f;
     align-items: right;
     border-right: 5px solid green;
+
 
 }
 
